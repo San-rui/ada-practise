@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Create a new Topic</h3>
+        <form action="basededatos.php" method="GET">
+            <input 
+            type="text"  
+            id="idTitle" 
+            maxlength="30" 
+            size="30"
+            placeholder="Type title, or paste a link here"
+            class="box-100">
+        </input>
+        <div class="box-line">
+            <select id="idPaises"
+            class="box-50">
+                <option value="" disabled selected>Category</option>
+                <option value="FX">Flexbox</option>
+                <option value="CSS">CSS</option>
+                <option value="HT">HTML</option>
+            </select>
+            <select id="idPaises"
+            class="box-50 m-10">
+            <option value="" disabled selected>Tag</option>
+                <option value="1">Tag 1</option>
+                <option value="2">Tag 2</option>
+                <option value="3">Tag 3</option>
+            </select>
+        </div>
+        <textarea  
+            id:"idDescription"
+            cols:"50"
+            rows="9"
+            maxlength="100"
+            placeholder="Enter your description here">
+        </textarea>
+        <div class="box-line">
+            <button 
+            type="submit"
+            class="box-50-button color-pink">+ Create Topic</button>
+            <button 
+            type="submit"
+            class="box-50-button m-10 color-viol">Cancel</button>
+        </div>
+        </form>
+    </div>
+    
+</body>
+</html>

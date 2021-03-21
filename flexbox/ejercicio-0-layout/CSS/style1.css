@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.caja1{
+    display: flex;
+    border: 1px solid black;
+    width: 224px;
+    height: 224px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header{
+    height: 20%;
+    width: 100%;
+    background-color: #FFC9FF;
+}
+
+.footer{
+    height: 20%;
+    width: 100%;
+    background-color: #CB87F6;
+}
+.bar{
+    color: white;
+    background-color: #9A14EC;
+    width: 100%;
+    height: 15%;
+}
+.mainContent2{
+    width: 100%;
+    height: 105px;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

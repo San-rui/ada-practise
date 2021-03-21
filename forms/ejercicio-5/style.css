@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#FFF1F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 50px;
+}
+h3{
+    margin-bottom: 35px;
+}
+textarea{
+    width: 100%;
+    border-radius: 5px;
+    border: 1.5px solid rgb(194, 190, 190);
+    margin-bottom: 20px;
+}
+.container{
+    width: 40%;
+    height: 500px;
+    background-color:white;
+    border-radius: 15px;
+    padding: 40px 40px;
+    box-shadow: 0px 2px 5px 0px rgba(174,165,165,0.75);
+}
+.box-100{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1.5px solid rgb(194, 190, 190);
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+.box-50{
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1.5px solid rgb(194, 190, 190);
+    padding: 0px 10px;
+}
+.box-line{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.m-10{
+    margin-left:10px;
+}
+.color-pink{
+    background-color:#EC3167;
+    color: white;
+    font-size: 17px;
+}
+.color-viol{
+    background-color: #EFF4FD;
+    color: rgb(167, 163, 163);
+    font-size: 17px;
+}
+.box-50-button{
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    border: transparent;
+    padding: 0px 10px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pago</h1>
+        <form action="basededatos.php" method="GET">
+            <label for="idNumerotarjeta">Numero tarjeta: </label>
+            <input 
+                type="text"
+                id="idNumerotarjeta" 
+                maxlength="16" 
+                size="30"
+                placeholder="2345987645789876">
+            </input>
+            <label for="idNombre">Nombre del titular: </label>
+            <input 
+                type="text"
+                id="idNombre" 
+                maxlength="40" 
+                size="30"
+                placeholder="Nombre del titular">
+            </input>
+            <label for="idMes-vencimiento">Mes de vencimiento: </label>
+            <input 
+                type="number"
+                id="idMes-vencimiento" 
+                min="0"
+                max="12"
+                size="30"
+                placeholder="Mes de vencimiento">
+            </input>
+            <label for="idYear-vencimiento">Año de vencimiento: </label>
+            <input 
+                type="number"
+                id="idYear-vencimiento" 
+                min="2021"
+                max="2031"
+                size="30"
+                placeholder="Año de vencimiento">
+            </input>
+            <label for="idPassword">CVV: </label>
+            <input 
+                type="password"
+                id="idPassword" 
+                maxlength="3" 
+                size="30"
+                placeholder="Password">
+            </input>
+            <button type="submit">COMPRAR</button>
+
+        </form>
+    </div>
+    
+</body>
+</html>

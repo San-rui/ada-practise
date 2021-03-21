@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Carga de productos</h2>
+        <form action="basededatos.php" method="GET">
+            <label for="idNombre">Nombre del producto: </label>
+            <input 
+                type="text"
+                id="idNombre" 
+                maxlength="30" 
+                size="30"
+                placeholder="Ingresa el nombre del producto"
+                class="caja">
+            </input>
+            <label for="idMarca">Marca: </label>
+            <select id="idMarca">
+                <option value="AR">Klatter</option>
+                <option value="TM">Top Mega</option>
+                <option value="Fi">Fierce</option>
+                <option value="Shi">Shimano</option>
+                <option value="Lam">Lamborghini</option>
+                <option value="Au">Aurora</option>
+                <option value="Gt">GT</option>
+        </select>
+        <label for="idRodado">Rodado: </label>
+        <input 
+            type="number" 
+            id="idRodado" 
+            maxlength="30" 
+            size="30"
+            placeholder="Numero de rodado"
+            class="caja">
+        </input>
+        <div class="radio">
+            <input 
+                id="idMountainbike" 
+                name="Bikes" 
+                type="radio" 
+                value="Mountain" /></input>
+            <label for="idMountainbike">Mountain Bike </label>
+        </div>
+        <div class="radio">
+            <input 
+                id="idPaseo" 
+                name="Bikes" 
+                type="radio" 
+                value="Paseo" /></input>
+            <label for="idPaseo">Paseo </label>
+        </div>
+        <div class="radio">
+            <input 
+                id="idPlegable" 
+                name="Bikes" 
+                type="radio" 
+                value="Plegable" /></input>
+            <label for="idPlegable">Plegable </label>
+        </div>
+        <div class="radio">
+            <input 
+                id="idCarrera" 
+                name="Bikes" 
+                type="radio" 
+                value="carrera" /></input>
+            <label for="idCarrera">Carrera </label>
+        </div>
+        <label for="idDescription">Descripción del producto: </label>
+        <textarea  
+            id:"idDescription"
+            cols:"50"
+            rows="4"
+            maxlength="100">
+        </textarea>
+        <button type="submit">Enviar formulario</button>
+        
+        </form>
+    </div>
+    
+</body>
+</html>

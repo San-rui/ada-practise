@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E7E8EC;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size: 25px;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.container{
+    width: 900px;
+    height: 550px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 40px;
+    padding:30px 30px;
+    display: flex;
+    flex-direction: column;
+}
+.caja1{
+    display: flex;
+
+}
+.caja11{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 60%;
+    flex-wrap: wrap;
+
+}
+.card1{
+    width: 230px;
+    height: 150px;
+    background-color: #FFBC00;
+    border-radius: 10px;
+    margin: 10px 10px;
+    box-sizing: border-box;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.caja111{
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 27px;
+
+}
+.caja112{
+    font-size: 12px;
+    font-weight: 600;
+}
+.caja113{
+    font-size: 10px;
+}
+
+.card2{
+    width: 230px;
+    height: 150px;
+    background-color: #FFBC00;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+.card3{
+    width: 230px;
+    height: 150px;
+    background-color: #FFBC00;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+.card4{
+    width: 230px;
+    height: 150px;
+    background-color: #FFBC00;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+.caja12{
+    width: 230px;
+    height: 270px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px 20px;
+    border-radius: 10px;
+    border:1px solid gainsboro;
+    padding-left: 10px;
+}
+.box{
+    width: 90%;
+    height: 50px;
+    padding: 5px 10px;
+    background-color: rgb(245, 238, 245);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text{
+    font-size: 11px;
+    font-weight:600;
+}
+.name{
+    font-size: 10px;
+    font-weight:800;
+    color: #FFBC00;
+}

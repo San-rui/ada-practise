@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #4C7EC5;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.container{
+    width: 100vw;
+    height: 175px;
+    background-color: #77C1CB;
+    position: absolute;
+}
+.icon{
+    color:white;
+    font-size: 50px;
+}
+.ball{
+    width: 30px;
+    height: 30px;
+    background-color: #DC5B4C;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heart{
+    position: relative;
+    top:25%;
+    left:65%;
+}
+.belt{
+    position: relative;
+    top:25%;
+    left:70%;
+
+}
+.cart{
+    position: relative;
+    top:25%;
+    left:75%;
+}
+.num-10{
+    position: relative;
+    top:10%;
+    left: 69.5%;
+    z-index: 1;
+}
+.num-5{
+    position: relative;
+    top:10%;
+    left: 73.9%;
+    z-index: 1;
+}
+.num-3{
+    position: relative;
+    top:10%;
+    left: 80%;
+    z-index: 1;
+}
+.bar{
+    color:#8CB7D9;
+    font-size: 60px;
+    position: relative;
+    top:20%;
+    left:2%;
+}
+.dot{
+    color:#8CB7D9;
+    font-size: 60px;
+    position: relative;
+    top:20%;
+    left:77%;
+}

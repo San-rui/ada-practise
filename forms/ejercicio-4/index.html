@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registro de cliente</h1>
+        <form action="basededatos.php" method="GET">
+            <div class="datos">
+                <div class="formato">
+                    <label for="idNombre">Nombre: </label>
+                    <input 
+                        type="text" 
+                        id="idNombre" 
+                        maxlength="30" 
+                        size="30"
+                        placeholder="Juana"
+                        class="box">
+                    </input>
+                </div>
+                <div class="formato">
+                    <label for="idApellido">Apellido: </label>
+                    <input 
+                        type="text" 
+                        id="idApellido" 
+                        maxlength="30" 
+                        size="30"
+                        placeholder="Rodiguez"
+                        class="box m-10">
+                </div>
+            </div>
+            <div class="datos">
+                <div class="formato dni">
+                    </input>
+                    <label for="idDNI">DNI: </label>
+                    <input 
+                        type="text" 
+                        id="idDNI"
+                        maxlength="8" 
+                        size="30"
+                        placeholder="37764837"
+                        class="box">
+                    </input>
+                </div>
+                <div class="formato mail">
+                    <label for="idEmail">Email: </label>
+                    <input 
+                        type="email" 
+                        id="idEmail" 
+                        maxlength="30" 
+                        size="30"
+                        placeholder="juanarod@gmail.com"
+                        class="box m-10"">
+                    </input>
+                </div>
+            </div>
+            <div class="datos">
+                <div class="formato">
+                    <label for="idPassword">Password: </label>
+                    <input 
+                        type="password" 
+                        id="idPassword" 
+                        min="8"
+                        max="16" 
+                        maxlength="30" 
+                        size="30"
+                        placeholder="Ingresá tu password"
+                        class="box">
+                    </input>
+                </div>
+                <div class="formato">
+                    <label for="idPasswordrepear">Repetir password: </label>
+                    <input 
+                        type="password" 
+                        id="idPasswordrepear" 
+                        min="8"
+                        max="16" 
+                        maxlength="30" 
+                        size="30"
+                        placeholder="Ingresá tu password"
+                        class="box m-10">
+                    </input>
+                </div>
+            </div>
+            <span><p><sup>*</sup>La contraseña debe tener entre 8 y 16 caracteres</p></span>
+            <div class="check">
+                <input 
+                    type="checkbox" 
+                    id=idTerminos>
+                <label for="idTerminos">He leido los terminos y condiciones</label>
+                <button type="submit" class="button-reg">REGISTRARSE</button>
+            </div>
+        </form>
+</body>
+</html>

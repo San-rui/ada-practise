@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EEEEEE;
+    font-family: 'Khula', sans-serif;
+}
+
+h1{
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: 800;
+}
+img{
+    width: 320px;
+    height: 320px;
+}
+.main-container{
+    display:flex;
+    flex-direction: row;
+}
+.container1{
+    background-color: #CB2140;
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 412px;
+    height: 576px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    background-color: #0C1F2C;
+    width: 592px;
+    height: 576px;
+    color: white;
+    padding-left: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between
+}
+.caja{
+    border-radius: 15px;
+    font-size: 10px;
+    display: inline-block;
+    border: #CB2140 solid 1px;
+    padding: 3px 12px;
+    margin-top: 10px;
+}
+.dis{
+    margin-left: 10px;
+}
+.main-parrafo{
+    font-size: 18px;
+}
+.text{
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+.numero{
+    font-size: 34px;
+    margin: 0px;
+}
+.caja2{
+    background-color: #CB2140;
+    border-radius: 22px;
+    font-size: 16px;
+    padding: 10px 64px;
+    display:inline-block;
+}
+.buttons{
+    display: flex;
+    flex-direction:row;
+}
+@media screen and (max-width:1100px){
+    body{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    img{
+        width: 300px;
+        height: 300px;
+    }
+    h1{
+        text-align: center;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+    .container1{
+        margin-left: 0px;
+        margin-top: 50px;
+        width: 500px;
+        height: 400px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+    }
+    .container2{
+        width: 500px;
+        height: 550px;
+        margin-top: 0px;
+        padding:10px 20px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+    .container2-caja{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .main-parrafo{
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content:center;
+    padding-top: 50px;
+}
+.grid{
+    display:grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    gap:15px;
+}
+.caja-gris{
+    width: 100px;
+    height: 100px;
+    background-color:#E6AA32;
+    position: relative;
+
+}
+.cajar-roja{
+    width: 60px;
+    height: 60px;
+    background-color: #BB60E6;
+
+}
+.caja-verde{
+    width: 30px;
+    height: 30px;
+    background-color: #49E69A;
+}
+.red-1{
+    position: absolute;
+}
+.green-1{
+    position: absolute;
+    left: 70px;
+    top: 70px;
+}
+.red-2{
+    position: absolute;
+    top:40px;
+}
+.green-2{
+    position: absolute;
+    left: 70px;
+}
+.red-3{
+    position: absolute;
+    top:40px;
+    left:40px;
+}
+.green-3{
+    position: absolute;
+    left: 70px;
+}
+.red-4{
+    position: absolute;
+    bottom:0;
+
+}
+.green-4{
+    position: absolute;
+    bottom:0;
+    left:30px;
+}
+.red-5{
+    position: absolute;
+    left: 40px;
+}
+.green-5{
+    position: absolute;
+    left: 40px;
+    top:30px;
+}
+.red-6{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+
+}
+.green-6{
+    position: absolute;
+    left: 70px;
+    top: 40px;
+}
+.red-7{
+    position: absolute;
+    left: 20px;
+}
+.green-7{
+    position: absolute;
+    top: 70px;
+}
+.red-8{
+    position: absolute;
+    left: 20px;
+    bottom:0;
+}
+.green-8{
+    position: absolute;
+    top: 70px;
+    left:35px;
+}
+.red-9{
+    position: absolute;
+    left: 20px;
+    bottom:20px;
+}
+.green-9{
+    position: absolute;
+    top: 35px;
+    left:35px;
+}

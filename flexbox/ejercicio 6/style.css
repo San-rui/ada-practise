@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding:100px 154px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+h1{
+    font-size:40px;
+    font-weight: 900;
+}
+h2{
+    font-size:20px;
+}
+p{
+    font-size: 15px;
+    font-weight: 300;
+    margin: 20px 0px;
+}
+.container{
+    display: flex;
+    flex-direction:column;
+}
+.main{
+    margin: 40px 0px;
+    padding: 0px 50px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 80%; 
+    margin-left: 20px;
+}
+.glass{
+    width: 45px;
+    height: 45px;
+    border-radius: 20%;
+    background-color:#6775F5;
+    font-size: 20px;
+    color:white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.box{
+    width: 45%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}

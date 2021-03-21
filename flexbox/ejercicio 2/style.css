@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #D3D3D3;
+}
+main{
+    display: flex;
+    justify-content: flex-start;
+    margin: 250px 250px;
+}
+.dadox{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: 50px;
+    display: flex;
+    padding: 15px 15px;
+}
+.dado{
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: black;
+}
+.uno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.culumn{
+    display: flex;
+    flex-direction: column;
+    
+}
+.caja{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.caja2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.tres{
+    display: flex;
+    flex-direction: column;
+    }
+.caja31{
+    display: flex;
+    width: 100%;
+    height: 33.33%;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+.caja32{
+    display: flex;
+    width: 100%;
+    height: 33.33%;
+    justify-content: center;
+    align-items: center;
+}
+.caja33{
+    display: flex;
+    width: 100%;
+    height: 33.33%;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.caja41{
+    display: flex;
+    width: 100%;
+    height: 33.33%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.caja42{
+    display: flex;
+    width: 100%;
+    height: 33.33%;
+    justify-content: center;
+    align-items: center;
+}
+.caja43{
+    display: flex;
+    width: 100%;
+    height: 33.33%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
