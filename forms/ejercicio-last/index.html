@@ -12,11 +12,16 @@
     <div class="container-1">
         <div class="container">
             <div class="box-blue">
-                <h3>SHIPMENT</h3>
-                <h2>Les's Get</h2>
-                <h1>Started</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque sunt harum dicta error, sit cupiditate, vel ex neque, praesentium numquam amet eveniet. Nemo, fuga. Dolore!</p>
-                <h4>SING UP HERE</h4>
+                <div class="box-transparent"></div>
+                <div class="sub-box-blue">
+                    <h3>SHIPMENT</h3>
+                    <div class="box-blue-text">
+                        <h2>Les's Get</h2>
+                        <h1>Started</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque sunt harum dicta error, sit cupiditate, vel ex neque, praesentium numquam amet eveniet. Nemo, fuga. Dolore!</p>
+                    </div>
+                    <h4>SING UP HERE</h4>
+                </div>
             </div>
             <div class="box-white">
                 <h1>REGISTER WITH YOUR WORK EMAIL ADDRESS</h1>
@@ -25,31 +30,40 @@
                     <div class="name-line">
                         <input type="text"
                         placeholder="&#xf007; First name *"
-                        required>
+                        required
+                        class="mar-4 input-form">
                         <input type="text"
-                        placeholder="Middle name *">
+                        placeholder="Middle name *"
+                        class="mar-4 input-form">
                         <input type="text"
                         placeholder="Last name *"
-                        required>
+                        required
+                        class="input-form">
                     </div>
                     <input type="email"
                     placeholder="&#xf0e0 Email Address *"
-                    required>
+                    required
+                    class="input-form">
                     <input type="number"
-                    placeholder="&#xf879 Phone Number">
-                    <p>Please provide a valid phone number in order to verify your account. We will send you a verification code either via SMS or voice massage in order to confirm you own a phone number.</p>
+                    placeholder="&#xf879 Phone Number"
+                    class="input-form">
+                    <small>Please provide a valid phone number in order to verify your account. We will send you a verification code either via SMS or voice massage in order to confirm you own a phone number.</small>
                     <div class="password-line">
                         <input type="password"
-                        placeholder="&#xf023 Password *">
+                        placeholder="&#xf023 Password *"
+                        class="mar-4 input-form">
                         <input type="password"
-                        placeholder="&#xf13e Confirm Password *">
+                        placeholder="&#xf13e Confirm Password *"
+                        class="input-form">
                     </div>
                     <h4>Other Information</h4>
                     <div class="code-line">
                         <input type="text"
-                        placeholder="Have a referral code? ">
+                        placeholder="Have a referral code? "
+                        class="mar-4 input-form">
                         <input type="text"
-                        placeholder="Promo code">
+                        placeholder="Promo code"
+                        class="input-form">
                     </div>
                     <select>
                         <option disabled selected>How did you hear about us?</option>
@@ -65,24 +79,41 @@
                     </select>
                     <div class="address-line">
                         <input type="text"
-                        placeholder="Address Line 1 ">
+                        placeholder="Address Line 1"
+                        class="mar-4 input-form">
                         <input type="text"
-                        placeholder="Apartment, Unit, Office">
+                        placeholder="Apartment, Unit, Office"
+                        class="input-form">
                     </div>
                     <div class="city-line">
                         <input type="text"
-                        placeholder="City">
-                        <select>
+                        placeholder="City"
+                        class="mar-4 input-form">
+                        <select class="mar-4">
                             <option disabled selected>State</option>
                             <option value="BA">Buenos Aires</option>
                             <option value="MD">Madrid</option>
                             <option value="DB">Dublin</option>
                         </select>
                         <input type="text"
-                        placeholder="Zip Code">
+                        placeholder="Zip Code"
+                        class="input-form">
+                    </div>
+                    <div class="check-line">
+                        <input type="checkbox" 
+                        id=idTerminos   
+                        value="leido"
+                        class="check">
+                        <label for="idTerminos">I read and agree to <span>terms & conditions</span>.</label>
+                    </div>
+                    <div class="button-box">
+                        <button type="submit">SIGN UP</button>
+                        <p>
+                            <span>Have an account?</span>
+                            Please Sign up
+                        </p>
                     </div>
                 </form>
-
             </div>
         </div>
     </div>
