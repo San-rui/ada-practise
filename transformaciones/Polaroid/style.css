@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cedarville Cursive', cursive;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+figure{
+    width: 174px;
+    height: 212px;
+    object-fit: fill;
+    background-color: white;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    padding: 10px;
+    box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.75);
+    transition-duration: 0.6s;
+}
+figure:hover{
+    transform: scale(1.6);
+    transition-duration: 0.6s;
+    z-index: 999999;
+    box-shadow: 9px -4px 57px 17px rgba(21,19,19,0.75);
+}
+img{
+    width: 100px;
+}
+figcaption{
+    padding:5px;
+}
+.tablero{
+    width: 100%;
+    height: 100%;
+    background-image: url('./wood.jpeg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-1{
+    width: 150px;
+    height: 150px;
+    background-image: url(./pexels-photo-1287145.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.box-2{
+    width: 150px;
+    height: 150px;
+    background-image: url(./pexels-photo-130621.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.box-3{
+    width: 150px;
+    height: 150px;
+    background-image: url(./pexels-photo-1424246.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.box-3{
+    width: 150px;
+    height: 150px;
+    background-image: url(./pexels-photo-2002719.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.box-4{
+    width: 150px;
+    height: 150px;
+    background-image: url(./pexels-photo-2258536.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.box-5{
+    width: 150px;
+    height: 150px;
+    background-image: url(./pexels-photo-2531608.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.box-6{
+    width: 150px;
+    height: 150px;
+    background-image: url(./pexels-photo-2748716.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.box-7{
+    width: 150px;
+    height: 150px;
+    background-image: url(./pexels-photo-624015.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.box-8{
+    width: 150px;
+    height: 150px;
+    background-image: url(./pexels-photo-1424246.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2em;
+    position: relative;
+}
+.deg-1{
+    transform: rotate(-10deg);
+}
+.deg-2{
+    transform: rotate(18deg);
+    z-index: 1;
+}
+.deg-3{
+    transform: rotate(-20deg);
+}
+.deg-4{
+    transform: rotate(15deg);
+    z-index: 1;
+}
+.deg-5{
+    transform: rotate(-12deg);
+}
+.deg-6{
+    transform: rotate(11deg);
+    z-index: 1;
+}
+.deg-7{
+    transform: rotate(-23deg);
+    z-index: 2;
+}
+.deg-8{
+    transform: rotate(13deg);
+    z-index: 3;
+}
