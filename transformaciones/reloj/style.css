@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding:100px 400px;
+}
+.container{
+    width: 350px;
+    height: 350px;
+    background-image: url(./pexels-photo-3713892.jpeg);
+    background-size: cover;
+    overflow: hidden;
+    border: 3px solid#FD655B;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 50%;
+    position:relative;
+}
+.segundero{
+    width: 150px;
+    height: 3px;
+    background-color:#FA67D9;
+    border-radius: 20px;
+    animation-name: segundo;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    transform-origin: right;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left:23px;
+}
+@keyframes segundo{
+    0%{ 
+        transform: rotate(-360deg);
+    }
+
+}
+.minutero{
+    width: 130px;
+    height: 10px;
+    background-color:#B85BFD;
+    border-radius: 20px;
+    animation-name: segundo;
+    animation-duration: 3600s;
+    animation-timing-function: linear;
+    transform-origin: right;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left:43px;
+}
+.hora{
+    width: 100px;
+    height: 10px;
+    background-color: #E3527B;
+    border-radius: 20px;
+    animation-name: segundo;
+    animation-duration: 43200s;
+    animation-timing-function: linear;
+    transform-origin: right;
+    animation-iteration-count: infinite;
+    position: absolute;
+    z-index: 999999999;
+    left:73px;
+}
+.punto{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: aqua;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 999999999999;
+}
+.numero{
+    font-family: 'Kiwi Maru', serif;
+    font-size: 20px;
+    position: absolute;
+    z-index: 9999;
+    color:black;
+}
+.uno{
+    bottom:300px;
+    left:250px;
+}
+.dos{
+    bottom:230px;
+    left:310px;
+}
+.tres{
+    left: 330px;
+}
+.cuatro{
+    top:230px;
+    left:310px;
+}
+.cinco{
+    top:290px;
+    left:260px;
+}
+.seis{
+    top:320px;
+}
+.siete{
+    top:290px;
+    right:260px;
+}
+.ocho{
+    top:230px;
+    right: 310px;
+}
+.nueve{
+    right:330px;
+}
+.diez{
+    bottom:230px;
+    right:300px;
+}
+.once{
+    bottom:300px;
+    right: 240px;
+
+}
+.doce{
+    bottom:320px;
+}
