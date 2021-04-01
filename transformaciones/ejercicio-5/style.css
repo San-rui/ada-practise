@@ -1,70 +1,91 @@
-*{
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-body{
+
+body {
     width: 100vw;
-    height: 100vh;
-    padding: 100px;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
 }
-.main-box{
+
+.main_box {
     width: 480px;
     height: 360px;
-    overflow: hidden;
     position: relative;
-    background-color: aquamarine;
+    overflow: hidden;
 }
-.box{
-    width: 480px;
-    height: 460px;
-    background-image: url(./pexels-photo-1982485.jpeg);
-    background-size: cover;
-    background-position: center;
+
+.box {
+    width:480px;
+    height:460px;
     position: absolute;
-    top:-100px;
-    transition-duration: 0.6s;
+    top: -100px;
+    background-image: url(./pexels-photo-1982485.jpeg) ;
+    background-size: cover; 
+    transition: 0.6s;   
 }
-.main-box:hover .box{
-    transform:translateY(100px);
+
+
+.line-style {
+    position: absolute;
+    margin: 20px;
     transition-duration: 0.6s;
+    opacity: 0;
+}
+.line-top{
+    width: 440px;
+    height: 60px;
+    top: 0px;
+    border-bottom: 5px solid greenyellow;
+}
+.line-left{
+    width: 60px;
+    height: 320px;
+    left:0px;
+    border-right: 5px solid yellow;
+}
+.line-bottom{
+    width: 440px;
+    height: 60px;
+    top: 260px;
+    border-top: 5px solid coral;
+}
+
+
+.line-right{
+    width: 60px;
+    height: 320px;
+    right:0px;
+    border-left: 5px solid yellowgreen;
+}
+
+
+.main_box:hover .box {
+    transition: .6s;
+    transform: translateY(100px);
     filter: sepia(50%);
 }
-.box-1{
-    width: 410px;
-    height: 290px;
-    position: absolute;
-    top: 25px;
-    left:25px;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-    opacity: 0;
-    transition-duration: 0.6s;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-}
-.box-2{
-    width: 390px;
-    height: 310px;
-    position: absolute;
-    top: 15px;
-    left:35px;
-    border-left: 2px solid white;
-    border-right: 2px solid white;
-    opacity: 0;
-    transition-duration: 0.6s;
-    transition-delay: 0.3s;
-}
-.main-box:hover .box-1{
-    transform:translateX(10px);
-    transform:translateY(10px);
-    transition-duration: 0.6s;
+
+.main_box:hover .line-top {
+    transition: .6s;
     opacity: 1;
 }
-.main-box:hover .box-2{
-    transform:translateY(10px);
-    transform:translateY(10px);
-    transition-duration: 0.6s;
+
+.main_box:hover .line-left {
+    transition: .6s;
+    opacity: 1;
+}
+
+.main_box:hover .line-bottom {
+    transition: .6s;
+    opacity: 1;
+}
+
+.main_box:hover .line-right {
+    transition: .6s;
     opacity: 1;
 }
