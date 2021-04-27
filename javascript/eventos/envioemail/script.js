@@ -3,12 +3,13 @@ list.style=`font-weight: 700;`
 
 const emails=document.getElementsByClassName('email');
 
-const leido=(i)=>{
-    emails.style=`color:red;`
+const leido=(e)=>{
+    const item= e.target
+    item.style=`color:red;`
 };
 
 for(let i=0; i < emails.length; i++){
-    emails[i].addEventListener('click', leido(i))
+    emails[i].addEventListener('click', leido)
 };
 
 
