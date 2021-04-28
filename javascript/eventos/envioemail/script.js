@@ -6,6 +6,7 @@ const emails=document.getElementsByClassName('email');
 const leido=(e)=>{
     const item= e.target
     item.style=`color:red;`
+    console.log(item)
 };
 
 for(let i=0; i < emails.length; i++){
