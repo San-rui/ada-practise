@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:100px;
+    flex-direction: column;
+}
+.btn{
+    width:50px;
+    height: 50px;
+    margin: 10px;
+    background-color: #A2DFE8;
+    font-size: 20px;
+    border:none;
+    border-radius: 5px;
+}
+.btn-2{
+    width:150px;
+    height: 50px;
+    margin: 10px;
+    background-color: #A2E8CA;
+    font-size: 20px;
+    border:none;
+    border-radius: 5px;
+}
+.pin{
+    width:200px;
+    height: 50px;
+    margin: 10px;
+    background-color: #B3E1FF;
+    font-size: 20px;
+    border:none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

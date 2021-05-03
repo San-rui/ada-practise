@@ -51,5 +51,3 @@ reset.addEventListener('click', addingStyle) //esto es para resetar la pagina
 
 
 
-
-
