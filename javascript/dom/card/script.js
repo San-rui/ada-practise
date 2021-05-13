@@ -7,7 +7,7 @@ format.style=`width:60%; border:2px solid black;border-radius:20px; height:500px
 const formatsection = document.querySelector('section')
 formatsection.style=`display:flex; flex-direction:column;`
 
-const h1 = prompt("Ingrese el tutulo")
+const h1 = prompt("Ingrese el titulo")
 const title= document.querySelector('h1')
 title.innerHTML= h1
 title.style=`font-size:40px; color:#7E95DE`
