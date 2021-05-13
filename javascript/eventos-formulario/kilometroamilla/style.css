@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Farro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#F59FA3;
+    font-size: 40px;
+}
+
+h1{
+    font-size:60px;
+    margin: 100px;
+}
+
+input{
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+form{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 30px;
+    background-color: #E9FFA3;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+    display: flex;
+    flex-direction:column;
+    margin: 20px;
+}

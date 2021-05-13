@@ -5,27 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>CONVERSOR MILLAS / KILOMETROS</h1>
     <form action="">
-        <label for="idMilla">Millas</label>
-        <input 
-            type="number" 
-            id="idMilla" 
-            maxlength="30" 
-            size="30"
-            value=""
-            placeholder="Ingresá millas">
-        </input>
-        <label for="idKm">kilometros</label>
-        <input 
-            type="number"
-            id="idKm" 
-            maxlength="30" 
-            size="30"
-            value=""
-            placeholder="Ingresá km">
-        </input>
+        <div class="form">
+            <div class="box">
+                <label for="idMilla">Millas</label>
+                <input 
+                    name="millas"
+                    type="number" 
+                    id="idMilla" 
+                    maxlength="30" 
+                    size="30"
+                    value=""
+                    placeholder="Ingresá millas">
+                </input>
+            </div>
+            <div class="box">
+                <label for="idKm">kilometros</label>
+                <input 
+                    name="kilometros"
+                    type="number"
+                    id="idKm" 
+                    maxlength="30" 
+                    size="30"
+                    value=""
+                    placeholder="Ingresá km">
+                </input>
+            </div>
+        </div>
+        <button type="reset">Reset</button>
     </form>
     <script src="script.js"></script>
 </body>
