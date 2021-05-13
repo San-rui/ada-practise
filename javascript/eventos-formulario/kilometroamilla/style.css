@@ -11,13 +11,19 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color:#F59FA3;
+    background-image: url(https://images.pexels.com/photos/1910225/pexels-photo-1910225.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
     font-size: 40px;
+    object-fit:contain;
+    background-position: center;
+    background-size: 100%;
 }
 
 h1{
     font-size:60px;
     margin: 100px;
+    background-color:#ABCBD9;
+    border-radius: 50px;
+    padding: 20px
 }
 
 input{
@@ -50,6 +56,8 @@ button{
 .form{
     display: flex;
     flex-direction: row;
+    background-color: #F59FA3; 
+    border-radius: 20px;
 }
 
 .box{
