@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container" id="container">
+        <h1>CONTROL REMOTO</h1>
+        <div class="box1" >
+            <div>
+                <label for="">Ingrese un canal:</label>
+                <input type="number" name="" id="channel-number" nin="0" max="99">
+            </div>
+            <button type="button" value="next">CANAL SIGUIENTE</button>
+            <button type="button" value="previous">CANAL ANTERIOR</button>
+            <button type="button" value="rise">SUBIR VOLUMEN</button>
+            <button type="button" value="down">BAJAR VOLUMEN</button>
+            <button type="button" value="mute">MUTEAR</button>
+        </div>
+        <div class="box2">
+            <p>CANAL: <span id="channel">1</span></p>
+            <p>VOLUMEN: <span id="volume">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
