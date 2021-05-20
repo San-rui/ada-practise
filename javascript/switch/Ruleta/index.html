@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>RULETA</h1>
+    <h2>Elija su apuesta: </h2>
+    <div class="box-options">
+        <button type="button" class="button-option" id="rojo" value="red">ROJO</button>
+        <button type="button" class="button-option" id="negro" value="black">NEGRO</button>
+        <button type="button" class="button-option" id="par" value="even">PAR</button>
+        <button type="button" class="button-option" id="impar" value="odd">IMPAR</button>
+        <button type="button" class="button-option" id="alta" value="high">ALTA </button>
+        <button type="button" class="button-option" id="baja" value="low">BAJA</button>
+        <button type="button" class="button-option" id="primer-docena" value="firstDozen">PRIMERA DOCENA</button>
+        <button type="button" class="button-option" id="segunda-docena" value="secondDozen">SEGUNDA DOCENA</button>
+        <button type="button" class="button-option" id="tercer-docena" value="thirdDozen">TERCERA DOCENA</button>
+    </div>
+    <div class="box">
+        <div class="button-play-check">
+            <button type="button" class="play" id="play">JUGAR</button>
+            <button type="button" class="check" id="answer-bet">CHEQUEAR</button>
+        </div>
+        <div class="box-answer">
+            <p class="win-number">El número ganador es: <span id="win-number"></span></p>
+            <p class="text">El número es 
+                <span id="color"></span> 
+                <span id="par-inpar"></span>
+                <span id="alta-baja"></span> y pertenece a la 
+                <span id="docena"></span>
+            </p>
+        </div>
+        </div>
+    </div>
+    <p id="win-or-not" class="win-or-not"></p>
+    <button type="reset" id="reset" class="reset">RESET</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
