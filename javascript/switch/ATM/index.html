@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <label for="">Ingrese el pin:</label>
+        <input type="text" name="" id="pin">
+    </form>
+    <div class="box-button" id="box-button">
+        <p>$ <span id="initial-money">10</span></p>
+        <button type="button" value="extraer">EXTRAER</button>
+
+            <form action="" class="form-extraer" id="form-extraer">
+                <label for="">cuanto desea extraer?</label>
+                <input type="number" name="" id="input-extraer" min="1" max="10">
+            </form>
+
+        <button type="button" value="depositar">DEPOSITAR</button>
+        <button type="button" value="trasferir">TRANSFERIR</button>
+        <button type="button" value="cambiar-pin">CAMBIAR PIN</button>
+        <button type="button" value="salir">SALIR</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
