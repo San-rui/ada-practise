@@ -5,9 +5,11 @@ const riddle4 = document.querySelector('#riddle4');
 const riddle5 = document.querySelector('#riddle5');
 const play =document.querySelector('#play')
 
-const playRiddle=()=>{
-    const rangeNum= Math.ceil(Math.random() * 5)
+const rangeNum= Math.ceil(Math.random() * 5)
     const randomNum=Math.round(rangeNum);
+
+const playRiddle=()=>{
+    
     console.log(randomNum)
     if(randomNum=="1"){
         riddle1.style=`display:flex`;
@@ -63,3 +65,10 @@ const respuesta =()=>{
 
 answerRiddle1.addEventListener('change' , respuesta);
 
+const butonReset = document.querySelector('#reset');
+
+function reloadPage(){
+    window.location.reload();
+}
+
+butonReset.addEventListener('click', reloadPage)
