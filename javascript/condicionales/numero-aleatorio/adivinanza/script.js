@@ -3,7 +3,9 @@ const riddle2 = document.querySelector('#riddle2');
 const riddle3 = document.querySelector('#riddle3');
 const riddle4 = document.querySelector('#riddle4');
 const riddle5 = document.querySelector('#riddle5');
-const play =document.querySelector('#play')
+const play =document.querySelector('#play');
+
+let answerX=""
 
 const rangeNum= Math.ceil(Math.random() * 5)
     const randomNum=Math.round(rangeNum);
@@ -12,6 +14,7 @@ const playRiddle=()=>{
     
     console.log(randomNum)
     if(randomNum=="1"){
+        answerX="elefante";
         riddle1.style=`display:flex`;
         riddle2.style=`display:none`;
         riddle3.style=`display:none`;
@@ -20,6 +23,7 @@ const playRiddle=()=>{
         
     }
     else if(randomNum=="2"){
+        answerX="pato";
         riddle2.style=`display:flex`;
         riddle1.style=`display:none`;
         riddle3.style=`display:none`;
@@ -52,10 +56,14 @@ const playRiddle=()=>{
 play.addEventListener('click', playRiddle);
 
 const answerRiddle1= document.querySelector('#answerRiddle1');
+const answerRiddle2= document.querySelector('#answerRiddle2');
 const text = document.querySelector('#text')
 
 const respuesta =()=>{
-    if(answerRiddle1.value=="elefante"){
+    if(answerRiddle1.value==answerX && randomNum=="1"){
+        text.innerHTML="Correcto!!!"
+    }
+    else if(answerRiddle2.value==answerX && randomNum=="2"){
         text.innerHTML="Correcto!!!"
     }
     else{
@@ -64,6 +72,11 @@ const respuesta =()=>{
 }
 
 answerRiddle1.addEventListener('change' , respuesta);
+answerRiddle2.addEventListener('change' , respuesta);
+
+
+
+
 
 const butonReset = document.querySelector('#reset');
 
