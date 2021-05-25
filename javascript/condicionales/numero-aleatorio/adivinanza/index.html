@@ -8,28 +8,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button type="button" id="play">Jugar</button>
-    <div class="riddle1 none" id="riddle1">
-        <p>1- Para ser más elegante no usa guante ni chaqué, solo cambia en un instante por una "efe" la "ge".</p>
+    <div class="container-button">
+        <button type="button" id="play">Jugar</button>
+        <button type="reset" id="reset">RESET</button>
+    </div>
+
+    <div class="riddle none" id="riddle1">
+        <p>Para ser más elegante no usa guante ni chaqué, solo cambia en un instante por una "efe" la "ge".</p>
         <input type="text" id="answerRiddle1">
     </div>
-    <div class="riddle2 none" id="riddle2">
-        <p>2- ¿Cuál es el animal que come con las patas?</p>
+    <div class="riddle none" id="riddle2">
+        <p>¿Cuál es el animal que come con las patas?</p>
         <input type="text" id="answerRiddle2">
     </div>
-    <div class="riddle3 none" id="riddle3">
+    <div class="riddle none" id="riddle3">
         <p>Vuelo de noche, duermo de día y nunca verás plumas en ala mía.</p>
+        <input type="text" id="answerRiddle3">
     </div>
-    <div class="riddle4 none" id="riddle4">
+    <div class="riddle none" id="riddle4">
         <p>Viste de chaleco blanco, y también de negro frac, es un ave que no vuela,
             pero nada.
             ¿Qué será?</p>
+            <input type="text" id="answerRiddle4">
     </div>
-    <div class="riddle5 none" id="riddle5">
+    <div class="riddle none" id="riddle5">
         <p>Salta y salta, y la colita le falta.</p>
+        <input type="text" id="answerRiddle5">
     </div>
-    <p id="text"></p>
-    <button type="reset" id="reset">RESET</button>
+    <p class="text" id="text"></p>
+    
     <script src="script.js"></script>
 </body>
 </html>
