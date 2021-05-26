@@ -67,3 +67,11 @@ input{
 .text{
     font-size:150px;
 }
+
+.swal-modal {
+    border: 3px solid rgb(139, 40, 139);
+}
+
+.swal-text {
+    font-size: 60px;
+}

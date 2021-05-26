@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
+
+body {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Signika', sans-serif;
+    background-color: #98d6a7;
+}
+
+span {
+    font-size: 30px;
+}
+
+i {
+    font-size: 240px;
+    color:#ca2bbd;
+    
+}
+
+.color {
+    width: 130px;
+    height: 100px;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px -1px 5px 0px rgba(100,86,86,0.75);
+    margin: 0px 10px;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    height: 500px;
+    width: 700px;
+    box-shadow: 0px 0px 8px 2px grey;
+    border-radius: 20px;
+    background-color:#F0FAC3;
+
+}
+
+#play-simon {
+    width: 50%;
+    height:50px;
+    font-size:50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 15px 35px;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+    background-color:#C3C9FA;
+    color: white;
+    animation-duration: 0.6s;
+    margin-top:80px;
+}
+
+#simon-box {
+    display: none;
+    font-size: 30px;
+    margin: 30px;
+    border-radius: 15px;
+    background-color: #8AD2DE;
+    color: white;
+    padding: 15px;
+    border: none;
+
+}
+
+#start-game {
+    margin: 20px;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0px 20px;
+    outline: none;
+    border-radius: 30px;
+    border: none;
+    display: none;
+    background-color:#C3C9FA;
+    color: white;
+    box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+}
+
+.color-box {
+    display: none;
+    margin-top: 10px;
+    width: 600px;
+    height: 200px; 
+    flex-direction: row;   
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+#rojo {
+    background-color: red;
+}
+
+#amarillo {
+    background-color: yellow;
+}
+
+#azul {
+    background-color: blue;
+}
+
+#verde {
+    background-color: green;
+}
+
+#cheked {
+    height: 50px;
+    width: 160px;
+    margin: 20px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius:30px;
+    background-color:#C3C9FA;
+    color: white;
+    animation-duration: 0.6s;
+    box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+}
+
+#reset {
+    height: 50px;
+    width: 200px;
+    margin: 20px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background-color:#C3C9FA;
+    color: white;
+    animation-duration: 0.6s;
+    border-radius:30px;
+    box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+}
+
+ /* Hover y active */
+
+#play-simon:hover {
+    background-color:#BEB8FD;
+    animation-duration: 0.6s;
+}
+
+#start-game:hover {
+    background-color:#BEB8FD;
+    animation-duration: 0.6s;
+}
+
+#reset:hover {
+    background-color:#BEB8FD;
+    animation-duration: 0.6s;
+}
+
+#cheked:hover {
+    background-color:#BEB8FD;
+    animation-duration: 0.6s;
+}
+
+#rojo:active:hover {
+    background-color: rgb(228, 85, 97);
+    box-shadow: 0px -1px 5px 0px rgba(18,17,17,0.75);
+}
+#amarillo:active:hover {
+    background-color: rgb(243, 233, 92) ;
+    box-shadow: 0px -1px 5px 0px rgba(18,17,17,0.75);
+}
+#verde:active:hover {
+    background-color: rgb(118, 163, 50);
+    box-shadow: 0px -1px 5px 0px rgba(18,17,17,0.75);
+}
+#azul:active:hover {
+    background-color: rgb(53, 118, 192) ;
+    box-shadow: 0px -1px 5px 0px rgba(18,17,17,0.75);
+}

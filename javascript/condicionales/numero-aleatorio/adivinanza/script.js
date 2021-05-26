@@ -45,22 +45,45 @@ const text = document.querySelector('#text')
 
 const respuesta =()=>{
     if(answerRiddle1.value==answerX && randomNum=="1"){
-        text.innerHTML="Correcto!!!"
+        text.innerHTML="Correcto!!!";
+        swal({
+            icon: "success",
+        });
     }
     else if(answerRiddle2.value==answerX && randomNum=="2"){
-        text.innerHTML="Correcto!!!"
+        text.innerHTML="Correcto!!!";
+        swal({
+            text: "Bien hecho!!!",
+            icon: "success",
+        });
     }
     else if(answerRiddle3.value==answerX && randomNum=="3"){
-        text.innerHTML="Correcto!!!"
+        text.innerHTML="Correcto!!!";
+        swal({
+            text: "Bien hecho!!!",
+            icon: "success",
+        });
     }
     else if(answerRiddle4.value==answerX && randomNum=="4"){
-        text.innerHTML="Correcto!!!"
+        text.innerHTML="Correcto!!!";
+        swal({
+            text: "Bien hecho!!!",
+            icon: "success",
+        });
     }
     else if(answerRiddle5.value==answerX && randomNum=="5"){
-        text.innerHTML="Correcto!!!"
+        text.innerHTML="Correcto!!!";
+        swal({
+            text: "Bien hecho!!!",
+            icon: "success",
+        });
     }
     else{
-        text.innerHTML="Vuelve a intentarlo"
+        text.innerHTML="Vuelve a intentarlo";
+        swal({
+            text: "Ops!!!",
+            icon: "error",
+        });
     }
 }
 answerRiddle1.addEventListener('change' , respuesta);
