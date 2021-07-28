@@ -193,13 +193,10 @@
 
 //-----Tiene bloque vertical-----
 // const matriz=[ [3, 4], 
-//                 [9, 4], 
-//                 [4, 5], 
-//                 [1, 5], 
-//                 [1, 4], 
-//                 [4, 5] ];
+//                 [9, 8], 
+//                 ];
 
-// const tieneBloqueHorizontal=(matriz)=>{
+// const tieneBloqueVertial=(matriz)=>{
 //     let matrizT=[];
 
 //     for (let row = 0; row < matriz.length; row++) {
@@ -227,6 +224,8 @@
 
 // }
 
+// tieneBloqueVertial(matriz);
+
 
 // const tieneBloqueVertical = (matriz)  => {
 //     for(const indiceX in matriz[0]){
@@ -249,4 +248,5 @@
 //   }
 
 // tieneBloqueVertical(matriz)
+
 

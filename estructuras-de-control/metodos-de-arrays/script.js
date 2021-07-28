@@ -128,15 +128,15 @@ const playlist = ['Smells Like Teen Spirit', 'Everlong', 'Come As You Are', 'The
 const playlistEscuchada = ['The Pretender', 'Lithium', 'Come As You Are']
 
 
-const playlistSinEscuchar=(playlist, playlistEscuchada)=>{
+// const playlistSinEscuchar=(playlist, playlistEscuchada)=>{
     
-    for(let item of playlistEscuchada)
-    for(let j=0; j<playlist.length; j++){
-        console.log(playlist.filter(element =>element!==item))
-    }
+//     for(let item of playlistEscuchada)
+//     for(let j=0; j<playlist.length; j++){
+//         console.log(playlist.filter(element =>element!==item))
+//     }
 
 
 
-}
+// }
 
-playlistSinEscuchar(playlist, playlistEscuchada);
+// playlistSinEscuchar(playlist, playlistEscuchada);
