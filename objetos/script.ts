@@ -53,7 +53,7 @@ type DatosPersonales ={
     edad: string,
     programa: boolean,
     lenguajeFavorito?: string,
-    lenguajesFavoritos?: string,
+    lenguajesFavoritos?: string[],
 }
 
 let datos = {
@@ -66,7 +66,7 @@ let datos = {
     programa: true,
 };
 
-const {telefono, edad}: {telefono: string, edad: string} =datos;
+let {telefono, edad}: {telefono: string, edad: string} =datos;
 telefono="098765432";
 edad="29";
 
@@ -234,9 +234,9 @@ const informacionGanadoras =(ganadoras: Participante[])=>{
     let output: string="";
     
     for(let ganadora of ganadoras ){
-        output+=  `${ganadora.nombre} gano la temporada ${ganadora.temporada}`
+        output+=  `${ganadora.nombre} gano la temporada ${ganadora.temporada}\n`
     }
-    
+    return output
 };
 
 informacionGanadoras (ganadoras);

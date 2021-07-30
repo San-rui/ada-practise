@@ -137,8 +137,9 @@ var informacionGanadoras = function (ganadoras) {
     var output = "";
     for (var _i = 0, ganadoras_1 = ganadoras; _i < ganadoras_1.length; _i++) {
         var ganadora = ganadoras_1[_i];
-        output += ganadora.nombre + " gano la temporada " + ganadora.temporada;
+        output += ganadora.nombre + " gano la temporada " + ganadora.temporada + "\n";
     }
+    return output;
 };
 informacionGanadoras(ganadoras);
 console.log(informacionGanadoras(ganadoras));
