@@ -32,3 +32,35 @@ var obtenerPropiedadesYValores = function (producto) {
 };
 var resp = obtenerPropiedadesYValores(producto);
 console.log(resp);
+var perfilSinEmail = {
+    nombreDeCuenta: "ada_lovelace",
+    contrasenia: "1234567890!"
+};
+var perfilConEmail = {
+    nombreDeCuenta: "ellie_arroway",
+    contrasenia: "vegaeterna",
+    email: "ellie@argos.org"
+};
+var tieneEmail = function (perfil) {
+    var respuesta = "";
+    if (perfil.hasOwnProperty('email')) {
+        respuesta = 'El usuario tiene la propiedad email';
+    }
+    else {
+        respuesta = 'El usuario no tiene la propiedad email';
+    }
+    return respuesta;
+};
+tieneEmail(perfilSinEmail);
+tieneEmail(perfilConEmail);
+console.log(tieneEmail(perfilSinEmail));
+console.log(tieneEmail(perfilConEmail));
+//--------EJERCICIO 6--------
+var perfil1 = {
+    nombreDeCuenta: "ada_lovelace",
+    contrasenia: "1234567890!"
+};
+var tienePropiedad = function (perfil, propiedad) {
+    return perfil.hasOwnProperty(propiedad);
+};
+console.log(tienePropiedad(perfil1, "email"));

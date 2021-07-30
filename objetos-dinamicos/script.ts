@@ -41,7 +41,7 @@ let producto: Productos = {
     condicion: "nuevo",
     envioGratis: true,
     ubicacion: "Capital Federal",
-  };
+};
 
 console.log(Object.keys(producto));
 
@@ -59,3 +59,51 @@ const obtenerPropiedadesYValores=(producto: Productos)=>{
 
 let resp= obtenerPropiedadesYValores(producto);
 console.log(resp);
+
+//--------EJERCICIO 5--------
+type PerfilType = {
+    nombreDeCuenta: string,
+    contrasenia: string,
+    email?: string
+};
+
+let perfilSinEmail: PerfilType = {
+    nombreDeCuenta: "ada_lovelace",
+    contrasenia: "1234567890!"
+};
+
+let perfilConEmail: PerfilType = {
+    nombreDeCuenta: "ellie_arroway",
+    contrasenia: "vegaeterna",
+    email: "ellie@argos.org"
+};
+
+const tieneEmail=(perfil:PerfilType)=>{
+    let respuesta="";
+    if(perfil.hasOwnProperty('email')){
+        respuesta= 'El usuario tiene la propiedad email'
+    }
+    else{
+        respuesta='El usuario no tiene la propiedad email'
+    }
+    return respuesta
+};
+
+tieneEmail(perfilSinEmail);
+tieneEmail(perfilConEmail);
+console.log(tieneEmail(perfilSinEmail));
+console.log(tieneEmail(perfilConEmail));
+
+//--------EJERCICIO 6--------
+
+let perfil1: PerfilType = {
+    nombreDeCuenta: "ada_lovelace",
+    contrasenia: "1234567890!",
+};
+
+const tienePropiedad =(perfil: PerfilType, propiedad: string)=>{
+
+    return perfil.hasOwnProperty(propiedad)
+}
+
+console.log(tienePropiedad(perfil1, "email"));
